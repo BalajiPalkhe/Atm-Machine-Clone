@@ -7,7 +7,8 @@ public class ATM {
 
 	    
 	    //default constructor
-	    public ATM(){
+	    public ATM()
+	    {
 
 	    }
 

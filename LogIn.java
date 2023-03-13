@@ -2,8 +2,8 @@ package One;
 
 public class LogIn {
 	
-	 int atmnumber=12345;
-     int atmpin=123;
+	 private int atmnumber=12345;
+     private int atmpin=123;
      
      public int getAtmnumber()
      {

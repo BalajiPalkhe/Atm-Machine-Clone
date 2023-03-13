@@ -2,13 +2,15 @@ package One;
 
 import java.util.Scanner;
 
-public class MainClass {
-    public static void main(String[] args) {
+public class MainClass 
+{
+    public static void main(String[] args) 
+    {
+    	LogIn logIn=new LogIn();
         
     	OperationInterface op=new OperationImpl();
         
         
-        LogIn logIn=new LogIn();
 
         
         Scanner in=new Scanner(System.in);
@@ -20,7 +22,7 @@ public class MainClass {
         System.out.print("Enter Pin: ");
         int pin=in.nextInt();
         
-        if((logIn.atmnumber==atmNumber)&&(logIn.atmpin==pin))
+        if((logIn.getAtmnumber()==atmNumber)&&(logIn.getAtmPin()==pin))
         {
             while(true)
             {

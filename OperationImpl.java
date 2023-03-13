@@ -3,7 +3,8 @@ package One;
 import java.util.HashMap;
 import java.util.Map;
 
-public class OperationImpl implements OperationInterface{
+public class OperationImpl implements OperationInterface
+{
     
 	ATM atm=new ATM();
     
